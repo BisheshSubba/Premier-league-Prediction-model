@@ -1,14 +1,14 @@
-<h1 align="center">⚽ Manchester United Match Outcome Predictor</h1>
+<h1 align="center">⚽ Premier League Match Outcome Predictor</h1>
 
 <p align="center">
-  A machine learning model that predicts Manchester United match results — Home Win, Away Win, or Draw.
+  A machine learning model that predicts Premier League match results — Home Win, Away Win, or Draw.
 </p>
 
 ---
 
 <h2>📘 Overview</h2>
 
-This project uses past match data to predict the outcome of Manchester United’s future games.  
+This project uses past match data to predict the outcome of future games.  
 It applies basic preprocessing, form-based features, and an XGBoost classifier for accurate predictions.
 
 ---
@@ -24,7 +24,7 @@ It applies basic preprocessing, form-based features, and an XGBoost classifier f
 
 <h2>📊 Dataset</h2>
 
-The dataset (<code>manunited.csv</code>) includes:
+The dataset (<code>premier.csv</code>) includes:
 - Date, Home, Away, Score, Venue, Referee, and Expected Goals (xG)
 
 ---
@@ -53,7 +53,7 @@ The dataset (<code>manunited.csv</code>) includes:
 <h2>🚀 Run Instructions</h2>
 
 ```bash
-git clone https://github.com/BisheshSubba/manunitedpredictor.git
-cd manunitedpredictor
+git clone https://github.com/BisheshSubba/Premier-league-Prediction-model.git
+cd Premier-league-Prediction-model
 pip install -r requirements.txt
 python main.py
